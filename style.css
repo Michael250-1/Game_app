@@ -1,0 +1,46 @@
+#Apps {
+    align-items: center;
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 800px;
+}
+
+#Games {
+    align-items: center;
+    background-color: lightcoral;
+    width: 100%;
+    height: 800px;
+}
+
+#Chatbot {
+    align-items: center;
+    background-color: lightgreen;
+    width: 100%;
+    height: 800px;
+}
+
+.line {
+    background-color: black;
+    width: 80px;
+    height: 6px;
+    text-align: center;
+}
+
+body {
+    align-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+img {
+    height: 620px;
+  width: 370px;
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
